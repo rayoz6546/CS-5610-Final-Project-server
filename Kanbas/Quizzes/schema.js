@@ -17,6 +17,7 @@ const schema = new mongoose.Schema(
     multiple_attempts: Boolean,
     number_attempts: String,
     show_correct_answers: Boolean,
+    show_correct_answers_when: String,
     access_code: String,
     one_question_at_a_time: Boolean,
     webcam_required: Boolean,
