@@ -9,6 +9,7 @@ const schema = new mongoose.Schema(
     answers: Object,
     timetaken: String,
     attempt: Number,
+    submitted_date: String,
 
   },
   { collection: "results" }
